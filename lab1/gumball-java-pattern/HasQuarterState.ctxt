@@ -2,8 +2,8 @@
 comment0.target=HasQuarterState
 comment1.params=gumballMachine
 comment1.target=HasQuarterState(GumballMachine)
-comment2.params=
-comment2.target=void\ insertQuarter()
+comment2.params=arr
+comment2.target=void\ insertQuarter(int[])
 comment3.params=
 comment3.target=void\ ejectQuarter()
 comment4.params=
