@@ -6,7 +6,7 @@ public class Main {
         
         int arr1[] ={25};
         int arr2[] ={25,25};
-        int arr3[]= {25,25,25};
+        int arr3[]= {25,10,10,5};
         GumballMachine gumballMachine1 = new GumballMachine(5,1);
 
         System.out.println(gumballMachine1);
@@ -29,7 +29,7 @@ public class Main {
         gumballMachine3.insertQuarter(arr3);
         gumballMachine3.turnCrank();
 
-        System.out.println(gumballMachine3);
+       // System.out.println(gumballMachine3);
 
         // gumballMachine.insertQuarter();
         // gumballMachine.turnCrank();
