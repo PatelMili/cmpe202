@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class Composite implements Component {
 
-    protected ArrayList<Component> components = new ArrayList<Component>()  ;
+    public ArrayList<Component> components = new ArrayList<Component>()  ;
     protected String description ;
 
     public Composite ( String d )

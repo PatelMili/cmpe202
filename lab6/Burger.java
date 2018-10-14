@@ -1,11 +1,14 @@
 
 import java.text.DecimalFormat;
+import java.util.ArrayList;
 public class Burger extends Composite
 {
     private int x;
     private double price;
     private int quantity;
     public double total_amt=0.0;
+    public ArrayList<Component> component_sub = new ArrayList<Component>()  ;
+
     public Burger ( String d, int quantity )
     {
         super(d) ;
@@ -44,13 +47,44 @@ public class Burger extends Composite
         }
     }
 
-    public void printDescription() {
+    public void printDescription(int i) {
         DecimalFormat fmt = new DecimalFormat("0.00");
+        int flag=0;
+
         System.out.println( "\n " + quantity + " " + description + " " + fmt.format(getPrice()) + "\n");
-        for (Component obj  : components)
-        {
-            obj.printDescription();
+        if(i==1){
+
+            for (Component obj  : components)
+            {
+
+                //System.out.println("classes name is"+obj.getClass().getName());
+
+                if(obj.getClass().getName().equalsIgnoreCase("Bacon")){
+                    flag=1;
+                    obj.printDescription();
+                }
+            }
+            //component_sub.get(0).printDescription(1);
+            for (Component obj  : components)
+            {
+                
+                if(!obj.getClass().getName().equalsIgnoreCase("Bacon")){
+                     obj.printDescription();
+                }else{
+                    //System.out.println("here");
+                   
+                }
+            }
+
+        }else if(i==2){
+
+            for (Component obj  : components)
+            {
+                obj.printDescription();
+            }
+
         }
+
     }
 
     public double getPrice() {

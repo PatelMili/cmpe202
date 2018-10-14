@@ -7,10 +7,11 @@ public class ConcreteStrategyCustomerReceipt implements Strategy
      
     }
 
-    public void printDescription(Composite order){
-        System.out.println("\nChef's Receipt\n");
+    public void printDescription(Burger order,int i){
         System.out.println("-------------------------------------");
-        order.printDescription();
+        System.out.println("Chef's Receipt");
+        System.out.println("-------------------------------------");
+        order.printDescription(i);
         System.out.println("-------------------------------------");
     }
 }

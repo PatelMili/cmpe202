@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=Bacon
-comment1.params=description
-comment1.target=Bacon(java.lang.String)
-comment2.params=
-comment2.target=void\ printDescription()
-numComments=3
