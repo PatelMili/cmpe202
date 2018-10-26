@@ -1,17 +1,7 @@
 
-public class CNumberDecorator implements IDisplayComponent,IDecorator{
+public class CNumberDecorator implements IDecorator{
 
-	@Override
-	public String display() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public void addSubComponent(IDisplayComponent c) {
-		// TODO Auto-generated method stub
-		
-	}
+	
 
 	@Override
 	public String decorate(String str) {

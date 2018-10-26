@@ -19,7 +19,7 @@ public class App {
         cvc = new CreditCardCVC();
 
         num.wrapDecorator(new CNumberDecorator());
-       // exp.wrapDecorator(new DateDecorator());
+        exp.wrapDecorator(new CExpDecorator());
         
         
         screen.addSubComponent(num);
