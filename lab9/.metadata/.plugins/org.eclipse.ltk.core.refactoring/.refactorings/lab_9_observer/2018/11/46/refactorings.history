@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;lab_9&apos; to &apos;lab_9_observer_with_lambda/src&apos;&#x0D;&#x0A;- Original project: &apos;lab_9_observer&apos;&#x0D;&#x0A;- Destination element: &apos;lab_9_observer_with_lambda/src&apos;&#x0D;&#x0A;- Original element: &apos;lab_9_observer/src/lab_9&apos;" description="Copy package" destination="=lab_9_observer_with_lambda/src" element1="/src&lt;lab_9" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1542427266078" version="1.0"/>
+</session>
