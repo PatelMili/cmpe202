@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;lab_9_strategy.StrategyPatternOldWay&apos; to &apos;StrategyDataSet&apos;&#x0D;&#x0A;- Original project: &apos;lab_9_strategy&apos;&#x0D;&#x0A;- Original element: &apos;lab_9_strategy.StrategyPatternOldWay&apos;&#x0D;&#x0A;- Renamed element: &apos;lab_9_strategy.StrategyDataSet&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;StrategyPatternOldWay&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;lab_9_strategy{StrategyPatternOldWay.java[StrategyPatternOldWay" matchStrategy="1" name="StrategyDataSet" qualified="false" references="true" similarDeclarations="false" stamp="1542509032468" textual="false" version="1.0"/>
+</session>
