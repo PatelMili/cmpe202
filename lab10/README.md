@@ -9,9 +9,9 @@ So changing the configurations would mean huge changes in code as the code is ti
 
 **Screenshots**
 
- - slot model cost 50 
+ - Slot Model (cost 50) 
  ![](./screenshots/s_model_two_qtr.png)
- - crankmodel one qtr cost 25 
+ - Crank Model one quarter (cost 25) 
  ![](./screenshots/c_model_one_qtr.png)
- - crankmodel two qtr cost 50 
+ - Crank Model two quarter (cost 50) 
  ![](./screenshots/c_model_one_qtr.png)
